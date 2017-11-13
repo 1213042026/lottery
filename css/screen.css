@@ -1,0 +1,402 @@
+html {
+  font-size: 0.625vw;
+  height: 100%;
+  overflow: auto;
+  cursor: url("../images/cur.jpg"),auto;
+}
+
+.lottery-screen-body {
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  
+}
+.lottery-screen-body .head {
+  height: 240px;
+}
+
+.font {
+  font-family: 'MicrosoftYaHei', 'Microsoft YaHei','Arial' !important;
+}
+
+body {
+  overflow: auto;
+  font-family: 'MicrosoftYaHei', 'Microsoft YaHei','Arial' !important;
+}
+
+.logo-image {
+  display: inline-block;
+  margin-left: 260px;
+  margin-right: 24px;
+  width: 115px;
+  height: 115px;
+}
+
+.title {
+  padding-top: 40px;
+  line-height: 155px;
+}
+
+.head-title {
+  font-family: 'MicrosoftYaHei', 'Microsoft YaHei','Arial' !important;
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+  top: -35px;
+  font-size: 46px;
+  line-height: 115px;
+  font-style: italic;
+}
+
+.head-scanning-qrcode {
+  display: inline-block;
+  background-image: url("../images/icn_screenqr_pic.png");
+  width: 705px;
+  height: 144px;
+  position: relative;
+  float: right;
+  right: 196px;
+  top: 10px;
+}
+
+#qrcode {
+  width: 110px;
+  height: 110px;
+  float: right;
+  position: relative;
+  right: 64px;
+  top: 15px;
+}
+
+.content {
+  margin-left: 13vw;
+  margin-right: 13vw;
+  width: 74vw;
+  margin-top: 25vh;
+}
+
+.lottery-screen {
+  background-image: url("../images/leftbg.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 54vw;
+  height: 64vh;
+  background-size: 54vw 64vh;
+}
+
+.won-prize-list {
+  float: right;
+  background-image: url("../images/rightbg.png");
+  background-repeat: no-repeat;
+  margin-left: 0;
+  height: 64vh;
+  width: 19vw;
+  background-size: 19vw 64vh;
+}
+
+.table {
+    margin-top: 13vh;
+    overflow-x: auto;
+    position: relative;
+    left: 0.6vw;
+}
+
+.won-prize-list tr {
+  background-color: #a01f24;
+}
+
+
+.won-prize-list tr > td {
+  width: 33%;
+  height: 78px;
+  vertical-align: middle;
+}
+
+.won-prize-list {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+}
+.won-prize-list .table {
+  width: 100%;
+}
+
+.won-prize-list-item {
+  line-height: 5.63vh;
+  width: 17.71vw;
+  height: 5.63vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  border-radius: 4px;
+  margin-left: 5px;
+  margin-bottom: 3vh;
+}
+
+.prize-winner-picture {
+  background-image: url("../images/icn_awardee_pic_bg_small.png");
+  background-repeat: no-repeat;
+  background-size: 4.69vw 8.3vh;
+  background-position: center center;
+  position: relative;
+  top: 0px;
+  line-height: 7.2vh;
+}
+
+.prize-winner-picture img {
+  height: 6.5vh;
+  width: 3.65vw;
+  border-radius: 50%;
+  line-height: 7.22vh;
+  position: relative;
+  top: 1.6vh;
+}
+
+.prize-winner-name {
+  color: #ffffff;
+  font-size: 4.8vh;
+  line-height: 5.63vh;
+  display: inline-block;
+  padding-left: 1.5vw;
+}
+
+.winner-name-div {
+  max-height: 4.8vh;
+  overflow: hidden;
+}
+
+.prize-species {
+  color: #ffffff;
+  font-size: 4.8vh;
+  line-height: 5.63vh;
+  display: inline-block;
+  padding-left: 1.5vw;
+  float: right;
+  margin-right: 1.04vw;
+  text-shadow: 3px 3px 0px #000000;
+}
+
+td:nth-child(odd) {
+  text-align: center;
+  word-break: break-word;
+}
+
+td:nth-child(even) {
+  text-align: left;
+  line-height: 1em;
+  word-break: break-word;
+}
+
+.prize-title {
+  font-family: 'MicrosoftYaHei', 'Microsoft YaHei','Arial' !important;
+  font-weight: bold;
+  height: 11vh;
+  line-height: 11vh;
+  font-size: 3.75vw;
+  text-align: center;
+}
+
+.prize-title {
+  color: white;
+}
+
+.award {
+  background-image: url("../images/default_prize_bg.png");
+  background-size: cover;
+  position: relative;
+  top: 7vh;
+  left: 10.5vw;
+  width: 12vw;
+  height: 27vh;
+  margin: 0px 0px;
+}
+
+.award .award-imge {
+  width: 100%;
+  top: -2.4vh;
+  position: relative;
+}
+
+.awardee {
+  width: 23vw;
+  height: 12.03vh;
+  position: absolute;
+  overflow: hidden;
+  font-size: 5.6vh;
+  color: #a01f24;
+  top: 1.5vh;
+}
+
+.top-mask {
+  height: 3vh;
+  position: absolute;
+  width: 19.6vw;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0.6;
+  z-index: 9999;
+  border-top-left-radius: 3.24vh;
+  border-top-right-radius: 3.24vh;
+  background-image: linear-gradient(to top,#fcfcfc,#010101);
+}
+
+.bottom-mask {
+  height: 3vh;
+  position: absolute;
+  width: 19.6vw;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0.6;
+  z-index: 9999;
+  border-bottom-left-radius: 3.24vh;
+  border-bottom-right-radius: 3.24vh;
+  background-image: linear-gradient(to bottom,#929292,#010101);
+}
+
+.rotate-bg {
+  background-image: url("../images/rotate.png");
+  background-repeat: no-repeat;
+  background-size:  23vw 15vh;
+  float: right;
+  display: inline-block;
+  width: 23vw;
+  height: 15vh;
+  position: relative;
+  overflow: hidden;
+  top: -19vh;
+  left: -4vw;
+}
+
+#image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 31.25vw;
+}
+
+#image div {
+  height: 6vh;
+  line-height: 6vh;
+  width: 20vw;
+  margin-left: 1.6vw;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  zoom: 1;
+}
+
+
+.awardee-picture {
+  position: relative;
+  width: 14vw;
+  height: 24.81vh;
+}
+
+.award-name {
+  background-image: url("../images/awardbg.png");
+  width: 23vw;
+  height: 6vh;
+  position: relative;
+  top: 12vh;
+  left: 5.2vw;
+  color: #ffffff;
+  font-size: 1.5625vw;
+  text-align: center;
+  line-height: 4.8vh;
+  background-size: 23vw 6vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.award-status {
+  font-family: 'MicrosoftYaHei', 'Microsoft YaHei','Arial' !important;
+  color: #a01f24;
+  position: relative;
+  float: right;
+  top: -25%;
+  left: 38%;
+  font-weight: bold;
+  height: 11.6vh;
+  line-height: 11.6vh;
+  font-size: 3.75vw;
+  text-align: center;
+}
+
+.start-button {
+  display:none;
+  background-image: url("../images/start.png");
+  position: relative;
+  background-size: 20vw 12vh;
+  background-repeat: no-repeat;
+  float: right;
+  top: -5.56vh;
+  left: 17.5vw;
+  height: 12vh;
+  width: 20vw;
+}
+
+.start-button:active {
+  background-image: url("../images/start_active.png");
+}
+
+.btn-active {
+  background-image: url("../images/start_active.png");
+}
+
+.foot {
+  padding-top: 2.4vh;
+  padding-right: 13.02vw;
+}
+
+.btn-lottery {
+  float: right;
+  margin-right: 0.52vw;
+  cursor: pointer;
+}
+
+.btn-wechat {
+  float: right;
+  cursor: pointer;
+}
+
+.blank-row {
+  border: none;
+  height: 5px !important;
+  overflow: hidden;
+}
+
+.tr-no-background {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+#prizeWinList {
+  overflow-y: auto;
+  max-height: 50vh;
+  max-width: 19vw;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: #38c4a9;
+    min-height: 6px;
+    width: 5px;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+    background: #c8c9ca;
+    border-radius: 4px;
+}
